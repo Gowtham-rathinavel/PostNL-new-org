@@ -1,0 +1,63 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "1f03e684-6e01-4ffb-b8af-9630c80322ec",
+  "label" : "ShopEmployeeAccountDetails",
+  "regions" : [ {
+    "id" : "42a56415-e0a1-4039-bf30-54e19d280099",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}",
+        "width" : "MEDIUM"
+      },
+      "componentName" : "forceCommunity:relatedRecords",
+      "id" : "dfbd8760-f543-4238-b725-ed117a89a55b",
+      "renderPriority" : "HIGHEST",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b36383cb-3996-444f-8dfc-effe3d9fa277",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordDetail",
+      "id" : "c1a34208-870d-413a-a24f-27754c061ab1",
+      "renderPriority" : "HIGHEST",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "92308cef-1e4f-469f-8f80-324832c73e86",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "c1f50696-0970-484b-9575-eeb570ab8cf5",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "558fc732-0111-475c-890f-5727aca5b1ec",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2bf98ec2-6266-4b7d-9349-3c2f1e215de6",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-001"
+}

@@ -1,0 +1,93 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
+  "dataProviders" : [ ],
+  "id" : "c7ca1961-d64a-46d4-a270-7c153eb789dd",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:getCommunityUserAccount",
+      "id" : "20220811-a812-49aa-ab54-9855f9c5f95e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0cfc8757-a3a6-4b18-b772-0c92192dc9c4",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:rpLogin",
+      "id" : "7ffdabe9-8195-4330-b44f-3e75a4c32ee5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1dc3a4cd-0667-4c43-8362-410c8be2b055",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:rp_PaginationParent",
+      "id" : "32180f39-b95c-4555-bafb-4231e796519a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "476f0e6c-0bae-4717-9c4d-174d0524acb2",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "numberOfArticles" : 5,
+        "title" : "Veelgestelde vragen",
+        "topicId" : "{!topicId}"
+      },
+      "componentName" : "selfService:topicTrendingArticles42",
+      "id" : "2570b87d-cb06-4fd3-8f86-14b7f9308859",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "fr" : "b2a78b1e-1606-492e-9313-dc1db412bfcf"
+      },
+      "renditions" : [ {
+        "id" : "b2a78b1e-1606-492e-9313-dc1db412bfcf",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Questions fréquemment posées"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "2fd566f7-f79e-44f1-bff7-56302392c213",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "0ac6cfc8-588a-4f97-afea-bd000c416515",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ed8d8d58-e3d7-4ce1-a2f2-53bc56ed5013",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "75038622-dd13-4583-b59c-7f45e616a27f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

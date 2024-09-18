@@ -1,0 +1,106 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "4600d0c8-ef11-4b00-91c5-54e4caa3d471",
+  "label" : "Beheren",
+  "regions" : [ {
+    "id" : "a11487b5-a7d9-4f4c-a29f-8925eb8ca34a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "Alle_Accounts_te_verwijderen_Carin",
+        "layout" : "COMPACT",
+        "pageSize" : 4,
+        "scope" : "Account",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "f8ca70e8-60b0-4a66-a79c-7e434d17fc1f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "AllContacts",
+        "layout" : "COMPACT",
+        "pageSize" : 4,
+        "scope" : "Contact",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "b2d53d2c-92be-4aeb-afac-b4d960e40d1e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "34aaf3da-cd8f-4cf4-9018-7d87f068b5a8",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:rpModRetailManagement",
+      "id" : "e1f68ddf-48e0-47b0-86d9-8cab1b73e640",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b43f1f6e-b0fb-4477-a253-6b320d97648a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "7e1d154f-ab57-44be-8f8b-6fb00ba62676",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Beheren | MijnPostNLpunt"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "faf399b0-4ce5-4c3e-be8a-40865ae52569",
+      "renditionMap" : {
+        "fr" : "cbe31278-2b61-4b98-b495-3f6fca2817cf"
+      },
+      "renditions" : [ {
+        "id" : "cbe31278-2b61-4b98-b495-3f6fca2817cf",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Gérer | MonPointPostNL"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "4e4e5a06-09f4-4076-85c7-8a8a71826317",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-beheren"
+}

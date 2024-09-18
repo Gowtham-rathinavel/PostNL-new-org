@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "2d5a22c5-b3b3-42c8-85fa-a2abe2b6bbd8",
+    "propertyOverrides" : {
+      "activeViewId" : "f3911312-aa09-41eb-8ed2-6666880f6db9"
+    },
+    "targetId" : "8e7421c4-d007-418d-8e24-b8ce56df0de8",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Home_RetailEmployee_Page",
+  "id" : "d539eb5d-5bc4-4a21-a3b0-29fc58be856f",
+  "type" : "experienceVariation"
+}

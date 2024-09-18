@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "0839b4d7-4dd2-4bc4-ad1f-fd4746545bd8",
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "configurationTags" : [ ],
+  "devName" : "Documenten__c",
+  "id" : "54cbf6d4-178d-4465-981d-249d4a0b752b",
+  "label" : "Documenten",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-documenten",
+  "type" : "route",
+  "urlPrefix" : "documenten"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "ebd03edd-0118-4308-8ce1-bc30afa8a1a7",
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "configurationTags" : [ ],
+  "devName" : "Custom_Order__c",
+  "id" : "8834a9c1-276e-4939-aae5-c3c90cc00620",
+  "label" : "Custom Order",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-order1",
+  "type" : "route",
+  "urlPrefix" : "bestellen"
+}

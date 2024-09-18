@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "4600d0c8-ef11-4b00-91c5-54e4caa3d471",
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "configurationTags" : [ ],
+  "devName" : "Beheren__c",
+  "id" : "fedd9a5c-2a51-40ed-aa48-b3c789404b00",
+  "label" : "Beheren",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-beheren",
+  "type" : "route",
+  "urlPrefix" : "beheren"
+}

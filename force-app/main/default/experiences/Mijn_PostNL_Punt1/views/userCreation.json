@@ -1,0 +1,81 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "5c654f41-ac4f-4847-ad60-1660f2e212ce",
+  "label" : "User Creation",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div>\n<table>\n    <tr><td class=\"academySubHeader\" style=\"color:#ed8c00;text-align:center;font-size:32px;\">Registreer een nieuwe gebruiker</td></tr>\n</table>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "f14b323d-4ee4-42f1-8ca0-72365e6815da",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "fr" : "d89b699c-9202-4626-9942-7703fbc573a3"
+      },
+      "renditions" : [ {
+        "id" : "d89b699c-9202-4626-9942-7703fbc573a3",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div>\n<table>\n    <tr><td class=\"academySubHeader\" style=\"color:#ed8c00;text-align:center;font-size:32px;\">Enregistrer un nouvel utilisateur</td></tr>\n</table>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "e162eb07-a774-4049-b144-ed14383b2041",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[]",
+        "flowName" : "R_Retail_Portal_Contact_Creation"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "7b9fa0e1-c7f2-4f5b-b250-297b879f3828",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b0b36637-d2a4-497c-9ac5-ace4b92bfefe",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f43be68d-6ad3-43e9-aa2f-e696008186f4",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Registeren Medewerker | MijnPostNLpunt"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4301cfd7-c93a-4705-ab91-6b09d8d35c82",
+      "renditionMap" : {
+        "fr" : "c4dd7a90-6f7e-4032-8e5c-7e2f24412256"
+      },
+      "renditions" : [ {
+        "id" : "c4dd7a90-6f7e-4032-8e5c-7e2f24412256",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Enregistrer Collaborateur | MonPointPostNL"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "f1b3b2e3-c95e-4fe1-a1a9-56e02b4b469e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-user-creation"
+}

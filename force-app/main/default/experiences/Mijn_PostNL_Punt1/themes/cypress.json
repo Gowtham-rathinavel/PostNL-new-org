@@ -1,0 +1,497 @@
+{
+  "activeBrandingSetId" : "659f3858-d73d-4b50-898b-bce62d6935ec",
+  "customCSS" : "@font-face {\n    font-family: 'postnlweb-bold-webfont';\n    src: url('/sfsites/c/resource/BP2_Assets/assets/fonts/postnlweb-bold-webfont.woff') format('woff');\n}\n\n@font-face {\n    font-family: 'postnlweb-light-webfont';\n    src: url('/sfsites/c/resource/BP2_Assets/assets/fonts/postnlweb-light-webfont.woff') format('woff');\n}\n\n\n@font-face {\n    font-family: 'postnlweb-regular-webfont';\n    src: url('/sfsites/c/resource/BP2_Assets/assets/fonts/postnlweb-regular-webfont.woff2') format('woff2');\n\n}\n\n@font-face {\n    font-family: 'postnl-medium-webfont';\n    src: url('/sfsites/c/resource/BusinessPortalAssets/fonts/postnl/postnl-medium-webfont.woff') format('woff');\n}\n\n@font-face {\n    font-family: 'PostNL Light';\n    src: url('/sfsites/c/resource/BP2_Assets/assets/fonts/postnlweb-light-webfont.woff') format('woff');\n}\n\n.comm-navigation__item{\n   color: rgb(52, 64, 182) !important;\n}\n\n.forceRelatedListCardDesktop{\n    \n    margin-top:20px;\n}\n\nspan[titlte='Follow'], .slds-button .slds-icon-utility-add {display: none !important;}\n\n.forceCommunityRecordListCompact .filterListPlaceholder .listTitle {\n    \n    font-size: 24px !important;\n    color: #3440b6;\n    font-weight:normal;\n    font-family: postnlweb-light-webfont;\n    \n}  \n\n.forceCommunityRecordListCompact .filterListPlaceholder ul{\n\n\tfont-size: 16px;\n}\n\n.forceCommunityRecordListCompact .forceCommunityRecordListCompactCard  .primaryField{\n    \n    font-size:16px;\n    padding-bottom:8px;\n   \n}\n.forceCommunityRecordListCompact .forceCommunityRecordListCompactCard  .primaryField a{\n    \n    color:#27324c;\n    \n}    \n.forceCommunityRecordListCompact .forceCommunityRecordListCompactCard  .secondaryFields a{\n    \n    color:#27324c;\n    \n} \n\n.forceRelatedListCardDesktop .slds-card__footer {\n    \n    display:none;\n}   \n\n/*/*Hide Home Menu Item\n.visible-links > li:first-child { \n  display: none;\n  visibility: hidden;  \n  font-size: 0px;  \n}*/\n\n/*Setting up the color and styling of HTML Table Data\ntable {\n\n  font-family: PostNL, sans-serif;\n  width: 100%;\n}\n\nhr {\n    \n     color : grey;\n}*/\n\n/*Aligning the text to center for the Trending Articles*/\n.selfServiceTopicTrendingArticles42 .slds-grid--vertical  a{\n\n    text-align: left; \n    font-family:postnlweb-regular-webfont;\n \tcolor: #ed8c00;\n}\n.comm-topic-trending-articles .comm-topic-trending-articles__item .slds-text-body_small {\n    \n    font-size:16px;\n    \n}\n/*Aligning the text to center for the Trending Articles Heading*/\n.selfServiceTopicTrendingArticles42>h2 { \n    color:  #3440B6;\n    text-align: left;\n    font-family:postnlweb-regular-webfont;\n    font-size:24px;\n    margin-top:16px;\n    font-weight: normal !important;\n}\n\n/*Aligning the text to center for the Headers\nh1 { \n    color:  #3440B6;\n    text-align: center;\n    font-family : 'PostNL';\n}*/\n\n/* Setting the spacing betwene the topic header and the article list */\n.forceCommunityTopArticleListForTopic .topicHeader {\n\npadding : 10px;\n\n}\n\n.forceCommunityTopArticleListForTopic {\n\n    border: 1px solid #adb5c5;\t\n}\n\n/*.blocks {\n\n  border: 1px solid #adb5c5;\t\n  width: 100%; \n  border-radius: 25px;  \n}\n\nth {\n\n  color: #3440B6; \n  padding: 8px;\n  text-align: center;\n  \n}\n\ntd{\n\n    \n    font-size: 16px;\n    font-weight: 500;\n    font-family: PostNL;\n    padding: 4px;\n    text-align: center;\n    \n}*/\n\n.linkcolor {\n    \n   color: #ED8C00;\n}\n\n/* Hiding the Title and View All Link for the Record List View \n\n.forceCommunityRecordListCompact .viewAllLink, .filterListPlaceholder .listTitle{\n    \n    visibility : hidden;\n} */\n\n/* Hiding the Title and View All Link for the Record List View */\n\n.forceCommunityRecordListCompact .viewAllLink {\n    \n    visibility : hidden;\n}\n\n/* Hiding the Fields and Labels on Artcile Detail Page */\n\n.selfServiceArticleHeaderDetail > .dot, .selfServiceArticleHeaderDetail > .article-type {display: none; }\n\n.content .slds-form.slds-form_stacked .slds-grid.slds-gutters_small.forcePageBlockSectionRow:first-child{\n    display: none;\n}\n\n/*.summary{\n    \n    display:none;\n}*/\n.content .slds-form.slds-form_stacked .slds-grid.slds-gutters_small.forcePageBlockSectionRow:nth-child(3){\n    display: none;\n}\n\n\n.content .slds-form.slds-form_stacked .slds-grid.slds-gutters_small.forcePageBlockSectionRow:nth-child(2){\n    display: none;\n}\n\n/*.content .test-id__field-label{\n    display:none;\n}*/\n\n/* CSS for Topic Catalogue\n\n@media only screen and (min-aspect-ratio: 4/3) and (min-width: 48em), only screen and (min-width: 64.0625em){\n\n\t.forceCommunityTopicCatalog.topicHierarchy-topBox.topicHierarchy-entry.forceCommunityTopicCatalog .topicHierarchy-childrenList{\n\t\n\t\t-webkit-column-count : 1;\n        column-count : 1;\n        text-align : center;\n  \t\n\t}\n}*/\n.forceCommunityTopicCatalog .topicHierarchy-childrenList{\n\t\n\t\t-webkit-column-count : 1;\n        column-count : 1;\n        text-align : center;\n  \t\n\t}\n\n/*.images-container {\n   float: right;\n}\n\n.images-container a {\n    margin-left: 5px;\n}\n\n.Htmlfooter {\n   position: fixed;\n   left: 0;\n   bottom: 0;\n   width: 100%;\n   background-color: grey;\n   color: white;\n   text-align: center;\n}*/\n\n.roundedCorners { \n  border: 1px solid #D4D9E3;\n  border-radius: 8px; \n  display: block; \n  \n  }\n\n.selfServiceArticleHeaderDetail.article-summary {\n    \n \tdisplay: none;   \n}    \n\n/*.siteforceDesignTimeRegion .siteforceDesignTimeComponent {\n    \n    border : 1px solid darkgrey;\n}*/\n/*.forceCommunityRecordListCompact{\n    \n    border: 1px solid;\n   \n}*/\n\n/*.comm-topic-trending-articles .comm-topic-trending-articles__item\n\n\n\n{\n    border: 1px solid #adb5c5;\n  \tborder-radius: 13px;  \n    width: 100%;\n}*/\n\n/*.comm-topic-trending-articles h2{\n    \n  border: 1px solid #adb5c5;\n  border-radius: 5px;  \n  width: 100%;  \n}*/\n\n.comm-topic-trending-articles .comm-topic-trending-articles__item .slds-text-body_small \n{\n   color : #ed8c00;\n   font-family : PostNL-Regular; \n}\n\n/*[data-component-label=\"Trending Articles by Topic\"]{\n    \n  border: 1px solid #adb5c5;\n  border-radius: 13px; \n  display: block;\n  width : 100%; \n  height : 110%    \n}*/\n.forceCommunityUserProfileTabs{\n    \n    display : none;\n}\n\n/* CSS to style Academy header */\n\n.mainHeader{\n\n  width: 100%;\n  height: 58px;\n  font-family: postnlweb-light-webfont;\n  font-size: 50px;\n  font-weight: 300;\n  font-stretch: normal;\n  font-style: normal;\n  line-height: 1.16;\n  letter-spacing: normal;\n  color: #3440b6;\n\n}\n\n/* CSS to style Academy Sub Header */\n\n.academySubHeader{\n\n  width: 90%;\n  height: 32px;\n  font-family: postnlweb-regular-webfont;\n  font-size: 24px;\n  font-weight: normal;\n  font-stretch: normal;\n  font-style: normal;\n  line-height: 1.33;\n  letter-spacing: normal;\n  color: #3440b6;\n  text-align:left;\n  padding-left: 24px;  \n  padding-bottom: 8px;\n}\n\n.contentInformation{\n\n  width: 37px;\n  height: 24px;\n  font-family: postnlweb-light-webfont;\n  font-size: 16px;\n  font-weight: 300;\n  font-stretch: normal;\n  font-style: normal;\n  line-height: 1.5;\n  letter-spacing: normal;\n  color: #27324c;\n  text-align:left;  \n  padding-left: 24px;\n  padding-bottom: 8px;\n}\n\n.academyLink{\n\n  width: 37px;\n  height: 24px;\n  font-family: postnlweb-light-webfont;\n  font-size: 16px;\n  font-weight: 300;\n  font-stretch: normal;\n  font-style: normal;\n  line-height: 1.5;\n  letter-spacing: normal;\n  text-align: center;\n  color: #ed8c00;\n  padding-top: 8px;\n}\n\n.visible-links > li{ \n \n      height: 24px;\n      font-size: 16px;\n      font-family:postnlweb-regular-webfont;\n}\n\n/* Css to keep the sub category text alignment to left for the topic catalogue */\n\n.forceCommunityTopicCatalog .topicHierarchy-childrenList .topicHierarchy-entry {\n \t\n    text-align:left;\n    font-family: postnlweb-light-webfont;\n   \n}\n\n.forceCommunityForceCommunityFeed{\n    \n    display:none;\n}\n.selfServiceArticleHeaderDetail.meta {\n    \n\tdisplay:none;\n}\n.content{\n    font-size:16px;\n    font-family: postnlweb-light-webfont;\n}\n.comm-topic-trending-articles .comm-topic-trending-articles__item .slds-text-body_small {\n    \n    font-family: postnlweb-regular-webfont;\n    font-weight: 500;\n    font-stretch: normal;\n    font-style: normal;\n}\n\n .changeRecordTypeLink{\n    \n    display : none;\n}\n\n.span .p{\n    \n    font-family: postnlweb-regular-webfont !important;\n}\n.forceOutputRichText{\n    \n    font-family: postnlweb-regular-webfont !important;\n    \n}\n\n\n.salesforceIdentityLoginBody2 .cCenterPanel {\n \ttext-align:center !important;   \n    font-family: postnlweb-regular-webfont;\n    font-weight: 500;\n    font-stretch: normal;\n    color:#27324c;\n    font-style: normal;\n}\n\n.salesforceIdentityLoginBody2{\n    \n    background-color: white !important;\n}\n.salesforceIdentityLoginForm2 .inverseTextColor{\n\t\n    color: #3440b6!important;\n    font-family: postnlweb-regular-webfont !important;\n    \n\n}\n\n.salesforceIdentityLoginForm2 .uiButton{\n    \n    background-color: #ed8c00!important;\n}\n.flowruntimeBody{\n    \n    text-align:left;\n    \n}\n\n.slds-button_brand, .slds-button--brand {\n    \n     background-color: #ed8c00!important;\n}\n/* .forceCommunityFlowCommunity{\n    \n    width: 50%;\n    margin-left: 25%;\n}*/\n\n.selfServiceArticleListItem .article-head{\n    \n     color: #3440b6 !important;\n     font-family: postnlweb-regular-webfont !important;\n     font-weight: 400px !important;\n}\n\n.forceCommunityHeadline .headlineTitle{\n    \n     color: #3440b6 !important;\n     font-family: postnlweb-regular-webfont !important;\n     font-size: 24px !important;\n     font-weight: 400px !important;\n}\n\n.tabHeader{\n    \n     color: #3440b6 !important;\n     font-family: postnlweb-regular-webfont !important;\n     font-size: 24px !important;\n     font-weight: 400px !important;\n}\n/* CSS to add margin on the top of table for Tiles */\n\n.margintop{\n    \n    margin-top:24px;\n}\n\n\n/* CSS to hide the arrows on the related list */\n.forceDeferredDropDownAction{\n    \n    display:none;\n}\n.forceVirtualAction{\n    \n    display:none;\n}\n\n.forceCommunityTopicCatalog{\n    \n   min-height: 400px;\n   margin-bottom: 100px;\n   clear: both;\n}\n\n\n.forceCommunityRichText,.salesforceIdentityLoginForm2{\n    \n     margin-bottom: 30px;\n}\n\n\n\n.forceCommunityFlowCommunity\n{\n    \n        margin-bottom: 3.8rem;\n\n}\n\n.createUserBtn{\n    \n    font: bold 16px;\n    text-decoration: none;\n    background-color: #ed8c00;\n    margin-top: 5px;\n    margin-bottom: 100px;\n    color: white !important;\n    cursor: pointer;\n    display: inline-block;\n    text-align: center;\n    vertical-align: middle;\n    background-image: none;\n    border: 1px solid transparent;\n    white-space: nowrap;\n    padding: 10px 12px;\n    font-size: 16px;\n    font-family: postnlweb-regular-webfont;\n    font-weight: 700;\n    line-height: 1.42857143;\n    border-radius: 2px;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    outline: none;\n}\n\n.selfServiceArticleLayout .slds-section.slds-is-open .slds-section__content {\n    \n    margin-bottom : 50px;\n}\n\n/*.listContent{\n    \n    margin-bottom : 100px;\n}*/\n\n.viewAllLink{\n    \n    display : none;\n}\n\n/*.slds-form>.slds-grid:nth-child(4) .slds-form-element__label{\n    display:none;\n}*/\n.content .slds-form.slds-form_stacked .slds-grid.slds-gutters_small.forcePageBlockSectionRow:nth-child(4) .slds-form-element__label{\n    display: none;\n}\nspan[title='Follow'], .slds-button .slds-icon-utility-add {display: none}\n\n.slds-col--padded .contentRegion .comm-layout-column{\n    \n    margin-bottom: 100px;\n}\n\n.forceCommunityTopicCatalog .topicHierarchy-top{\n    \n    text-transform : none !important\n}\n\n.forceCommunityTopicCatalog .topicHierarchy-child{\n    \n     text-transform : none !important;\n}\n\n/*Css to change article title format*/\n.selfServiceArticleLayout .article-head {\n    font-family: postnlweb-light-webfont;\n    color : #003366;  \n}\n\n/*CSS to change flow email input size*/\n.flowruntimeEmail {\n    max-width: 700px;\n}\n\n/*CSS to change color of navigation menu items*/\n.forceCommunityThemeNav.navMenuType-expanded .mainNavItem .linkBtn.comm-navigation__top-level-item-link {\n    color: #3440b6 !important;\n}\n\n.forceCommunityThemeNav.navMenuType-expanded .mainNavItem .linkBtn.comm-navigation__top-level-item-link--active {\n    border-bottom: 2px solid  #27324c !important;\n}\n\n/* CSS used to Change the Color of links to Orange on Hover */\n.forceCommunityThemeNav.navMenuType-expanded .mainNavItem .linkBtn.comm-navigation__top-level-item-link:hover {\n    color: #27324c !important;\n}\n\n.forceCommunityThemeProfileMenu .profile-name{\n    \n    color: #3440b6 !important;\n}\n\n/* CSS used to Change the Color of profile name to Orange on Hover */\n.forceCommunityThemeProfileMenu .profile-name:hover{\n    \n    color: #27324c !important;\n}",
+  "developerName" : "cypress",
+  "id" : "164f3626-12a5-4ec3-aaf5-baa53f22ff9b",
+  "label" : "Cypress",
+  "layouts" : {
+    "Home" : "912370f6-5240-48af-9def-dae17ce9f389",
+    "Inner" : "f5ebc00a-96b6-411f-a58d-984dd117b4d0",
+    "Login" : "f1992c80-44e8-4a09-8b23-07ef77dfb61f",
+    "ServiceNotAvailable" : "4e86b496-b762-4e3c-af94-cdb9dafb4194"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentAttributes" : { },
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "f1992c80-44e8-4a09-8b23-07ef77dfb61f",
+    "label" : "Login",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.PostNL_logo.1}\" style=\"width: 110.438px; height: 88.2344px;\" /></p>"
+        },
+        "componentName" : "forceCommunity:richTextInline",
+        "id" : "75533cb6-0da9-4598-959a-6bd87ceab586",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "cf83083f-3a19-4313-bfdd-b926f1794303",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "d2740f7e-8248-4381-8d6f-cb86483b5446",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "c:rp_Community_Footer",
+        "id" : "3ade2609-94b3-47ae-b144-2d454a33f603",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "77e252b4-1789-4da1-aef0-bdefe9d3d538",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "isHeaderPinned" : true,
+      "showHero" : false
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "f5ebc00a-96b6-411f-a58d-984dd117b4d0",
+    "label" : "Default",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "background" : "background: rgb(255,255,255)",
+          "backgroundOverlayColor" : "rgba(0, 0, 0, 0.3)",
+          "borderBottomColor" : "rgba(33, 33, 33, 0.15)",
+          "centerAlignLogo" : false,
+          "collapseNavMenu" : true,
+          "containHeader" : true,
+          "containHeaderWidth" : 1353,
+          "dropdownBackgroundColor" : "rgb(255, 255, 255)",
+          "dropdownBackgroundHoverColor" : "",
+          "dropdownBorderColor" : "rgb(240, 240, 240)",
+          "dropdownTextColor" : "",
+          "dropdownTextHoverColor" : "",
+          "headerHeight" : 14,
+          "linkActiveBorderColor" : "",
+          "linkColor" : "rgba(28, 47, 177, 0.8)",
+          "linkHoverColor" : "rgba(0, 0, 0, 0.7)",
+          "linkTextShadowColor" : "rgba(255, 255, 255, 0)",
+          "logoWidth" : 57,
+          "searchStyle" : "expanded",
+          "showAppLauncher" : false,
+          "showNavMenuOnLeft" : true,
+          "showNotifications" : false,
+          "showProfileMenu" : true,
+          "showSearch" : true
+        },
+        "componentName" : "forceCommunity:themeHeaderCompact",
+        "id" : "0a1a9c45-a26d-4d09-996c-0f15f111feee",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "buttonBackgroundColor" : "inherit",
+              "buttonBackgroundHoverColor" : "inherit",
+              "buttonBorderColor" : "transparent",
+              "buttonBorderRadius" : 5,
+              "buttonText" : "Log in",
+              "buttonTextColor" : "#fff",
+              "buttonTextHoverColor" : "#0099de",
+              "customizableUserProfileMenuEditor" : "Default_User_Profile_Menu",
+              "menuStyleSettings" : "{\"selectedMenuStyleSetting\":\"nameOnly\",\"selectedIconSetting\":\"userAvatar\",\"includeCompanyName\":false,\"selectedTextOrientationSetting\":\"right\"}"
+            },
+            "componentName" : "forceCommunity:customizableUserProfileMenu",
+            "id" : "c35d499d-5896-48b4-b633-84751ab2bfe3",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "6af5b39f-fb0d-449b-813b-cf7600b67e78",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "rgb(255, 255, 255)",
+              "borderColor" : "rgb(212, 217, 227)",
+              "borderRadius" : 4,
+              "borderStyle" : "outline",
+              "buttonColor" : "rgb(255, 255, 255)",
+              "buttonHoverColor" : "rgb(255, 255, 255)",
+              "crossObjectTypeaheadApiNames" : [ {
+                "isPublic" : true,
+                "name" : "Topic"
+              }, {
+                "isPublic" : true,
+                "name" : "Article_Manual__kav"
+              }, {
+                "isPublic" : true,
+                "name" : "Article__c"
+              } ],
+              "iconColor" : "rgba(0, 0, 0, 0.8)",
+              "placeholderText" : "",
+              "placeholderTextColor" : "rgba(0, 0, 0, 0.6)",
+              "showSearchButton" : true,
+              "textColor" : "rgba(0, 0, 0, 0.8)",
+              "typeaheadResultMax" : 10,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearch",
+            "id" : "be03b9b3-9e84-439a-9fe5-7c6bc24776a9",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "efdff02f-9d36-4909-be02-47ec95852250",
+          "regionName" : "search",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "navAlignment" : "left",
+              "navItemThreshold" : 9,
+              "navigationMenuEditorRefresh" : ""
+            },
+            "componentName" : "forceCommunity:themeNav",
+            "id" : "1512d39e-e646-4736-9a39-e768cecf9efe",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "8955b500-4e16-4f44-9dbe-493ec43ea98e",
+          "regionName" : "nav",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "197469dc-2e92-4a0b-a806-c1c993779c84",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "bgImage" : "background: rgb(0,0,0) url(/sfsites/assets/themes/cypress-background.jpg) top center /cover",
+          "bgOverlayColor" : "rgba(0, 0, 0, 0.35)",
+          "captionText" : "Limited time offer",
+          "captionTextColor" : "rgb(255, 255, 255)",
+          "captionTextShadowColor" : "rgba(0, 0, 0, 0.5)",
+          "contentAlignment" : "center",
+          "contentWidth" : 60,
+          "ctaBtnOneBgColor" : "",
+          "ctaBtnOneBgHoverColor" : "",
+          "ctaBtnOneBorderColor" : "rgba(0, 0, 0, 0)",
+          "ctaBtnOneOpenNewTab" : false,
+          "ctaBtnOneText" : "Learn More",
+          "ctaBtnOneTextColor" : "",
+          "ctaBtnOneTextHoverColor" : "",
+          "ctaBtnOneUrl" : "",
+          "ctaBtnRadius" : 4,
+          "ctaBtnTwoBgColor" : "rgba(255, 255, 255, 0)",
+          "ctaBtnTwoBgHoverColor" : "rgb(255, 255, 255)",
+          "ctaBtnTwoBorderColor" : "rgb(255, 255, 255)",
+          "ctaBtnTwoOpenNewTab" : false,
+          "ctaBtnTwoText" : "Secondary",
+          "ctaBtnTwoTextColor" : "rgb(255, 255, 255)",
+          "ctaBtnTwoTextHoverColor" : "rgba(0, 0, 0, 0.8)",
+          "ctaBtnTwoUrl" : "",
+          "ctaShowBtnOne" : true,
+          "ctaShowBtnTwo" : false,
+          "fixedHeroWidth" : true,
+          "heroHeight" : 140,
+          "heroWidth" : 1440,
+          "showCaption" : true,
+          "showSubtitle" : false,
+          "showTitle" : true,
+          "subtitleText" : "Subtitle Content",
+          "subtitleTextColor" : "rgb(255, 255, 255)",
+          "subtitleTextShadowColor" : "rgba(0, 0, 0, 0.5)",
+          "titleText" : "Collect bonus rewards.",
+          "titleTextColor" : "rgb(255, 255, 255)",
+          "titleTextShadowColor" : "rgba(0, 0, 0, 0.5)",
+          "type" : "callToAction"
+        },
+        "componentName" : "forceCommunity:themeHeroStarter",
+        "id" : "4d7cf469-8db0-41ec-b08d-e196fa2aab27",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "rgb(255, 255, 255)",
+              "borderColor" : "rgba(0, 0, 0, 0.5)",
+              "borderRadius" : 4,
+              "borderStyle" : "outline",
+              "buttonColor" : "",
+              "buttonHoverColor" : "",
+              "crossObjectTypeaheadApiNames" : "",
+              "iconColor" : "rgb(255, 255, 255)",
+              "placeholderText" : "Ask a question...",
+              "placeholderTextColor" : "rgba(0, 0, 0, 0.6)",
+              "publicDropdownBackgroundColor" : "rgb(255, 255, 255)",
+              "publicDropdownBackgroundHoverColor" : "",
+              "publicDropdownBorderColor" : "rgb(240, 240, 240)",
+              "publicDropdownTextColor" : "",
+              "publicDropdownTextHoverColor" : "",
+              "showSearchButton" : true,
+              "textColor" : "rgba(0, 0, 0, 0.8)",
+              "typeaheadResultMax" : 6,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearchHero",
+            "id" : "f95cd0c1-869c-4b54-b3e2-af451615725c",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "8f1d3d6c-95a4-4bb2-8e2c-7f5556ec439f",
+          "regionName" : "search",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "50f67a04-2fe7-423a-b989-0487907635de",
+      "regionName" : "themeHero",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "c:rp_Community_Footer",
+        "id" : "7ff0c915-8de8-40cc-b4c3-2f9abe557fc4",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "e838ad8b-867d-4065-8fa8-d9571b920db9",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "isHeaderPinned" : true,
+      "showHero" : false
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "912370f6-5240-48af-9def-dae17ce9f389",
+    "label" : "Home",
+    "regions" : [ {
+      "components" : [ {
+        "componentAttributes" : {
+          "background" : "background: rgb(255,255,255)",
+          "backgroundOverlayColor" : "rgba(0, 0, 0, 0.3)",
+          "borderBottomColor" : "rgba(33, 33, 33, 0.15)",
+          "centerAlignLogo" : false,
+          "collapseNavMenu" : true,
+          "containHeader" : true,
+          "containHeaderWidth" : 1351,
+          "dropdownBackgroundColor" : "rgb(255, 255, 255)",
+          "dropdownBackgroundHoverColor" : "",
+          "dropdownBorderColor" : "rgb(240, 240, 240)",
+          "dropdownTextColor" : "",
+          "dropdownTextHoverColor" : "",
+          "headerHeight" : 14,
+          "linkActiveBorderColor" : "",
+          "linkColor" : "rgb(52, 64, 182)",
+          "linkHoverColor" : "rgba(0, 0, 0, 0.7)",
+          "linkTextShadowColor" : "rgba(255, 255, 255, 0)",
+          "logoWidth" : 57,
+          "searchStyle" : "expanded",
+          "showAppLauncher" : false,
+          "showNavMenuOnLeft" : true,
+          "showNotifications" : false,
+          "showProfileMenu" : true,
+          "showSearch" : true
+        },
+        "componentName" : "forceCommunity:themeHeaderCompact",
+        "id" : "b24aed9b-d1c0-47ea-ba4a-5807a35ff02c",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "buttonBackgroundColor" : "inherit",
+              "buttonBackgroundHoverColor" : "inherit",
+              "buttonBorderColor" : "transparent",
+              "buttonBorderRadius" : 5,
+              "buttonText" : "Log in",
+              "buttonTextColor" : "#fff",
+              "buttonTextHoverColor" : "#0099de",
+              "customizableUserProfileMenuEditor" : "Default_User_Profile_Menu",
+              "menuStyleSettings" : "{\"selectedMenuStyleSetting\":\"nameOnly\",\"selectedIconSetting\":\"userAvatar\",\"includeCompanyName\":false,\"selectedTextOrientationSetting\":\"right\"}"
+            },
+            "componentName" : "forceCommunity:customizableUserProfileMenu",
+            "id" : "69a31c93-94c7-4865-aa86-f983b23832ab",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "5f406d59-0a0b-4e01-b480-920fd4061477",
+          "regionName" : "themeHeaderProfileMenu",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "#fff",
+              "borderColor" : "rgb(212, 217, 227)",
+              "borderRadius" : 5,
+              "borderStyle" : "outline",
+              "buttonColor" : "rgba(255,255,255,1)",
+              "buttonHoverColor" : "rgba(0,0,0,0.2)",
+              "crossObjectTypeaheadApiNames" : [ {
+                "isPublic" : true,
+                "name" : "FeedItem"
+              }, {
+                "isPublic" : true,
+                "name" : "Article_Manual__kav"
+              }, {
+                "isPublic" : true,
+                "name" : "Topic"
+              } ],
+              "iconColor" : "#000",
+              "placeholderText" : "",
+              "placeholderTextColor" : "#000",
+              "showSearchButton" : true,
+              "textColor" : "#000",
+              "typeaheadResultMax" : 6,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearch",
+            "id" : "3dd85444-32da-4ce1-ad4f-a2bc8d030a3d",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "5eb0c53c-eca0-4225-af32-24884523d31f",
+          "regionName" : "search",
+          "type" : "region"
+        }, {
+          "components" : [ {
+            "componentAttributes" : {
+              "navAlignment" : "left",
+              "navItemThreshold" : 9,
+              "navigationMenuEditorRefresh" : "Default_Navigation1"
+            },
+            "componentName" : "forceCommunity:themeNav",
+            "id" : "cc596f8d-fc26-4081-95c3-de3fccec9932",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "de7b644c-94ba-485b-9251-5bac8d9da63b",
+          "regionName" : "nav",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "2499e9b9-c253-48cf-9942-80ac72a9fb38",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "bgImage" : "background: rgb(0,0,0) url(/sfsites/assets/themes/cypress-background.jpg) top center /cover",
+          "bgOverlayColor" : "rgba(0, 0, 0, 0.35)",
+          "captionText" : "Limited time offer",
+          "captionTextColor" : "rgb(255, 255, 255)",
+          "captionTextShadowColor" : "rgba(0, 0, 0, 0.5)",
+          "contentAlignment" : "center",
+          "contentWidth" : 60,
+          "ctaBtnOneBgColor" : "",
+          "ctaBtnOneBgHoverColor" : "",
+          "ctaBtnOneBorderColor" : "rgba(0, 0, 0, 0)",
+          "ctaBtnOneOpenNewTab" : false,
+          "ctaBtnOneText" : "Learn More",
+          "ctaBtnOneTextColor" : "",
+          "ctaBtnOneTextHoverColor" : "",
+          "ctaBtnOneUrl" : "",
+          "ctaBtnRadius" : 4,
+          "ctaBtnTwoBgColor" : "rgba(255, 255, 255, 0)",
+          "ctaBtnTwoBgHoverColor" : "rgb(255, 255, 255)",
+          "ctaBtnTwoBorderColor" : "rgb(255, 255, 255)",
+          "ctaBtnTwoOpenNewTab" : false,
+          "ctaBtnTwoText" : "Secondary",
+          "ctaBtnTwoTextColor" : "rgb(255, 255, 255)",
+          "ctaBtnTwoTextHoverColor" : "rgba(0, 0, 0, 0.8)",
+          "ctaBtnTwoUrl" : "",
+          "ctaShowBtnOne" : true,
+          "ctaShowBtnTwo" : false,
+          "fixedHeroWidth" : true,
+          "heroHeight" : 140,
+          "heroWidth" : 1440,
+          "showCaption" : true,
+          "showSubtitle" : false,
+          "showTitle" : true,
+          "subtitleText" : "Subtitle Content",
+          "subtitleTextColor" : "rgb(255, 255, 255)",
+          "subtitleTextShadowColor" : "rgba(0, 0, 0, 0.5)",
+          "titleText" : "Collect bonus rewards.",
+          "titleTextColor" : "rgb(255, 255, 255)",
+          "titleTextShadowColor" : "rgba(0, 0, 0, 0.5)",
+          "type" : "callToAction"
+        },
+        "componentName" : "forceCommunity:themeHeroStarter",
+        "id" : "2876d7b3-83ca-414f-ac3d-99f743dc4330",
+        "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "backgroundColor" : "rgb(255, 255, 255)",
+              "borderColor" : "rgba(0, 0, 0, 0.5)",
+              "borderRadius" : 4,
+              "borderStyle" : "outline",
+              "buttonColor" : "",
+              "buttonHoverColor" : "",
+              "crossObjectTypeaheadApiNames" : "",
+              "iconColor" : "rgb(255, 255, 255)",
+              "placeholderText" : "Ask a question...",
+              "placeholderTextColor" : "rgba(0, 0, 0, 0.6)",
+              "publicDropdownBackgroundColor" : "rgb(255, 255, 255)",
+              "publicDropdownBackgroundHoverColor" : "",
+              "publicDropdownBorderColor" : "rgb(240, 240, 240)",
+              "publicDropdownTextColor" : "",
+              "publicDropdownTextHoverColor" : "",
+              "showSearchButton" : true,
+              "textColor" : "rgba(0, 0, 0, 0.8)",
+              "typeaheadResultMax" : 6,
+              "useTypeahead" : true
+            },
+            "componentName" : "forceCommunity:themeSearchHero",
+            "id" : "1102dd9b-6d5c-41de-af54-a2b5ce021a46",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
+          "id" : "af918c4f-161a-43d0-b34a-ff6abf69a0c3",
+          "regionName" : "search",
+          "type" : "region"
+        } ],
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "de9fd4c4-7bf7-48ca-89b6-62c4f067b36e",
+      "regionName" : "themeHero",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : { },
+        "componentName" : "c:rp_Community_Footer",
+        "id" : "bba95787-120d-4433-a592-4f586146a790",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "131f376a-ff3e-4e58-8090-9c4b0fa78e02",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentAttributes" : {
+      "fixedPageWidth" : 1170,
+      "headerBgColor" : "rgba(0, 0, 0, 0)",
+      "isHeaderPinned" : false,
+      "isHeroUnderHeader" : false,
+      "isPageWidthFixed" : true,
+      "showHeader" : true,
+      "showHero" : true
+    },
+    "componentName" : "siteforce:themeLayoutStarter",
+    "id" : "4e86b496-b762-4e3c-af94-cdb9dafb4194",
+    "label" : "ServiceNotAvailable",
+    "regions" : [ {
+      "id" : "b6fc1a3a-7c46-4859-80e8-9a1db8bcf856",
+      "regionName" : "themeHeader",
+      "type" : "region"
+    }, {
+      "id" : "1ade8fe4-036a-4462-b9f7-32a573852e20",
+      "regionName" : "themeFooter",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

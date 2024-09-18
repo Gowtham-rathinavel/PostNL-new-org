@@ -1,0 +1,69 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "335f4eeb-dc6c-49b4-bd23-7be8f17132d1",
+  "label" : "TemporaryClosure",
+  "regions" : [ {
+    "id" : "0419b58d-480f-44b5-b39d-8f1603c37858",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div>\n<table>\n    <tr><td class=\"academySubHeader\" style=\"color:#ed8c00;text-align:center;font-size:32px;\">Verzoek voor Tijdelijke sluiting</td></tr>\n</table>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "03312fc1-2786-453c-b5c8-a46b8147c9a3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "fr" : "4607f5e3-6e73-4500-a19d-da29713c95af"
+      },
+      "renditions" : [ {
+        "id" : "4607f5e3-6e73-4500-a19d-da29713c95af",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div>\n<table>\n    <tr><td class=\"academySubHeader\" style=\"color:#ed8c00;text-align:center;font-size:32px;\">Demande de fermeture temporaire</td></tr>\n</table>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "flowArguments" : "",
+        "flowName" : "R_Request_Change_Opening_Times"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "f6d38308-876e-41b0-9324-b457fcbe3129",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "abb9e34c-1671-49f8-bd0a-105e5b4c6e9f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "a234b9fc-6f5a-41ed-9e49-6cfb6a1edd64",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "TemporaryClosure"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "df3de8c9-6b91-48ba-88b8-a52aff490ad7",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6ba70e6f-54d8-46bd-8ccc-f8231f7b0930",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-temporaryclosure"
+}

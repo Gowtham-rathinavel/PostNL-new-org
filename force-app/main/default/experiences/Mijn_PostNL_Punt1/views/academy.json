@@ -1,0 +1,205 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsThreeCol444Layout",
+  "dataProviders" : [ ],
+  "id" : "eb477524-71a7-427a-995c-a566cce52cfe",
+  "label" : "Academy",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p class=\"mainHeader\">Leren & Media</p>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "e0c5ca6b-773b-4e35-9bd2-597c8389699a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "en_us" : "967ea194-8799-438c-ae87-905338b30b3b",
+        "fr" : "a838dfd4-e2b6-43c5-b03d-e889a9032951"
+      },
+      "renditions" : [ {
+        "id" : "a838dfd4-e2b6-43c5-b03d-e889a9032951",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<p class=\"mainHeader\">Apprentissage & Médias</p>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "967ea194-8799-438c-ae87-905338b30b3b",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<p class=\"mainHeader\">Learning & Media</p>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "b64dbdf1-6dd6-40a4-b7e4-9df5ccabe803",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"roundedCorners\" style=\"width: 347px;\n  height: 170px;\n  border-radius: 4px;\">\n<table class=\"margintop\">\n    <tr><td class=\"academySubHeader\">Verkorte handleiding</td></tr>\n    <tr><td class=\"contentInformation\">Leer hoe je PostNL werkzaamheden</td></tr>\n    <tr><td class=\"contentInformation\">uitvoert.</td></tr>\n    <tr><td class=\"academyLink\"><a style=\"color:#ed8c00;\" href=\"https://mijn.postnlpunt.nl/s/article/Verkorte-Handleiding\" target=\"_blank\">Ga naar de verkorte handleiding</a></td></tr>\n</table>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "648f50b3-9ed2-405c-8e21-9e8644a1346a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "en_us" : "ee5af80a-0f99-4725-a592-2cde01a5c10d",
+        "fr" : "cce98c7d-1f29-465b-b5bb-0a7390440cb3"
+      },
+      "renditions" : [ {
+        "id" : "cce98c7d-1f29-465b-b5bb-0a7390440cb3",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"roundedCorners\" style=\"width: 347px;\n  height: 210px;\n  border-radius: 4px;\">\n<table class=\"margintop\">\n    <tr><td class=\"academySubHeader\">Academy</td></tr>\n    <tr><td class=\"contentInformation\">Apprendre et s'exercer à effectuer</td></tr>\n    <tr><td class=\"contentInformation\">des opérations PostNL.</td></tr>\n    <tr><td class=\"contentInformation\"></td></tr>\n    <tr><td class=\"academyLink\"><a style=\"color:#ed8c00;\" href=\"https://academy.postnlpunt.nl/login?action=auth\" target=\"_blank\">Aller au Academy</a></td></tr>\n</table>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "ee5af80a-0f99-4725-a592-2cde01a5c10d",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"roundedCorners\" style=\"width: 347px;\n  height: 170px;\n  border-radius: 4px;\">\n<table class=\"margintop\">\n    <tr><td class=\"academySubHeader\">Academy</td></tr>\n    <tr><td class=\"contentInformation\">Learn and practice how to perform</td></tr>\n    <tr><td class=\"contentInformation\">PostNL operations.</td></tr>\n    <tr><td class=\"academyLink\"><a style=\"color:#ed8c00;\" href=\"https://academy.postnlpunt.nl/login?action=auth\" target=\"_blank\">Go to Academy</a></td></tr>\n</table>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"roundedCorners\" style=\"width: 347px;\n  height: 170px;\n  border-radius: 4px;\">\n<table class=\"margintop\">\n    <tr><td class=\"academySubHeader\">Kenniscentrum</td></tr>\n    <tr><td class=\"contentInformation\">Hier vind je informatie & documenten</td></tr>\n    <tr><td class=\"contentInformation\">over PostNL-producten en -processen.</td></tr>\n    <tr><td class=\"academyLink\"><a style=\"color:#ed8c00;\" href=\"/s/vragen-and-contact\" target=\"_blank\">Ga naar Kenniscentrum</a></td></tr>\n</table>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "e0798d74-2244-4df7-8af6-1902b1d1af65",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "en_us" : "df93e663-20c9-4b49-9ab4-96871e2e2669",
+        "fr" : "c061597f-1a7d-4f2d-b2e2-edb41ad2dd7f"
+      },
+      "renditions" : [ {
+        "id" : "c061597f-1a7d-4f2d-b2e2-edb41ad2dd7f",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"roundedCorners\" style=\"width: 347px;\n  height: 210px;\n  border-radius: 4px;\">\n<table class=\"margintop\">\n    <tr><td class=\"academySubHeader\">Centre de Connaissances</td></tr>\n    <tr><td class=\"contentInformation\">Vous trouverez ici des informations et</td></tr>\n    <tr><td class=\"contentInformation\">des documents sur les produits et les</td></tr>\n    <tr><td class=\"contentInformation\">processus de PostNL.</td></tr>\n    <tr><td class=\"academyLink\"><a style=\"color:#ed8c00;\" href=\"/s/vragen-and-contact\" target=\"_blank\">Aller au Centre de Connaissances</a></td></tr>\n</table>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "df93e663-20c9-4b49-9ab4-96871e2e2669",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"roundedCorners\" style=\"width: 347px;\n  height: 170px;\n  border-radius: 4px;\">\n<table class=\"margintop\">\n    <tr><td class=\"academySubHeader\">Knowledge Centre</td></tr>\n    <tr><td class=\"contentInformation\">Here you will find information & documents</td></tr>\n    <tr><td class=\"contentInformation\">on PostNL products and processes.</td></tr>\n    <tr><td class=\"academyLink\"><a style=\"color:#ed8c00;\" href=\"/s/vragen-and-contact\" target=\"_blank\">Go to Knowledge Centre</a></td></tr>\n</table>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "3b628834-22a3-4d8b-8239-d24788b6f9d9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"roundedCorners\" style=\"width: 347px;\n  height: 170px;\n  border-radius: 4px;\"><table class=\"margintop\">\n    <tr><th class=\"academySubHeader\">RDW simulator</th></tr>\n    <tr><td class=\"contentInformation\">Oefen in deze simulator hoe je RDW</td></tr>\n    <tr><td class=\"contentInformation\">handelingen uitvoert.</td></tr>\n    <tr><td class=\"academyLink\"><a style=\"color:#ed8c00\" href=\"https://tvsimulator.gatrdw.nl/?UPN=testuser&ROLES=2509&BEDRYF-NR=60153&KLGR-NR=111&KLANT-NR=00011&Locatienummer=1&Locatienaam=aa&Medewerkernaam=piet&transactionId=54545456465&storeId=4554343&storeName=ah&employeeId=564&docContent=pdf&docRender=popup&docLineWidth=48&outputInQueryString=true&logoutBeforeRedirects=false\" rel=\"noopener noreferrer\" target=\"_blank\">Ga naar RDW simulator</a></td></tr>\n\n</table></div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "58c4e198-76bc-4b4e-871e-b0b946f94707",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "en_us" : "45c6baad-b034-4701-8e90-0e1a472dd7b2",
+        "fr" : "d031ffd9-48be-4c32-8f61-b34d97051e8c"
+      },
+      "renditions" : [ {
+        "id" : "d031ffd9-48be-4c32-8f61-b34d97051e8c",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"roundedCorners\" style=\"width: 347px;\n  height: 210px;\n  border-radius: 4px;\"><table class=\"margintop\">\n    <tr><th class=\"academySubHeader\">RDW simulateur</th></tr>\n    <tr><td class=\"contentInformation\">S'entraîner à effectuer des opérations</td></tr>\n    <tr><td class=\"contentInformation\">RDW dans ce simulateur.</td></tr>\n    <tr><td class=\"contentInformation\"></td></tr>\n    <tr><td class=\"academyLink\"><a style=\"color:#ed8c00\" href=\"https://tvsimulator.gatrdw.nl/?UPN=testuser&ROLES=2509&BEDRYF-NR=60153&KLGR-NR=111&KLANT-NR=00011&Locatienummer=1&Locatienaam=aa&Medewerkernaam=piet&transactionId=54545456465&storeId=4554343&storeName=ah&employeeId=564&docContent=pdf&docRender=popup&docLineWidth=48&outputInQueryString=true&logoutBeforeRedirects=false\" rel=\"noopener noreferrer\" target=\"_blank\">Aller au RDW simulateur</a></td></tr>\n\n</table></div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "45c6baad-b034-4701-8e90-0e1a472dd7b2",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"roundedCorners\" style=\"width: 347px;\n  height: 170px;\n  border-radius: 4px;\"><table class=\"margintop\">\n    <tr><th class=\"academySubHeader\">RDW simulator</th></tr>\n    <tr><td class=\"contentInformation\">Practice how to perform RDW</td></tr>\n    <tr><td class=\"contentInformation\">operations in this simulator.</td></tr>\n    <tr><td class=\"academyLink\"><a style=\"color:#ed8c00\" href=\"https://tvsimulator.gatrdw.nl/?UPN=testuser&ROLES=2509&BEDRYF-NR=60153&KLGR-NR=111&KLANT-NR=00011&Locatienummer=1&Locatienaam=aa&Medewerkernaam=piet&transactionId=54545456465&storeId=4554343&storeName=ah&employeeId=564&docContent=pdf&docRender=popup&docLineWidth=48&outputInQueryString=true&logoutBeforeRedirects=false\" rel=\"noopener noreferrer\" target=\"_blank\">Go to RDW simulator</a></td></tr>\n\n</table></div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<div class=\"roundedCorners\" style=\"width: 347px;\n  height: 170px;\n  border-radius: 4px;\"><table class=\"margintop\">\n    <tr><th class=\"academySubHeader\">Marketing</th></tr>\n    <tr><td class=\"contentInformation\">Download hier marketing en</td></tr>\n    <tr><td class=\"contentInformation\">communicatiemiddelen.</td></tr>\n    <tr><td class=\"academyLink\"><a style=\"color:#ed8c00\" href=\"https://www.postnl.nl/marcomretail\" target=\"_blank\">Ga naar Marketing</a></td></tr>\n\n</table></div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "06b9646b-0ad6-4ba0-9a6a-a1c5147aee87",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "en_us" : "37496fbc-bcbd-4961-b836-205ffdd1e399",
+        "fr" : "5c906105-7d97-4615-97e3-6c3cede9c55c"
+      },
+      "renditions" : [ {
+        "id" : "5c906105-7d97-4615-97e3-6c3cede9c55c",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"roundedCorners\" style=\"width: 347px;\n  height: 210px;\n  border-radius: 4px;\"><table class=\"margintop\">\n    <tr><th class=\"academySubHeader\">Marketing</th></tr>\n    <tr><td class=\"contentInformation\">Téléchargez les outils de marketing</td></tr>\n    <tr><td class=\"contentInformation\">et de communication ici.</td></tr>\n    <tr><td class=\"contentInformation\"></td></tr>\n    <tr><td class=\"academyLink\"><a style=\"color:#ed8c00\" href=\"https://www.postnl.nl/marcomretail\" target=\"_blank\">Aller au Marketing</a></td></tr>\n\n</table></div>"
+          }
+        },
+        "type" : "renditionComponent"
+      }, {
+        "id" : "37496fbc-bcbd-4961-b836-205ffdd1e399",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div class=\"roundedCorners\" style=\"width: 347px;\n  height: 170px;\n  border-radius: 4px;\"><table class=\"margintop\">\n    <tr><th class=\"academySubHeader\">Marketing</th></tr>\n    <tr><td class=\"contentInformation\">Download marketing and communication</td></tr>\n    <tr><td class=\"contentInformation\">tools here.</td></tr>\n    <tr><td class=\"academyLink\"><a style=\"color:#ed8c00\" href=\"https://www.postnl.nl/marcomretail\" target=\"_blank\">Go to Marketing</a></td></tr>\n\n</table></div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "52e5501d-e58b-49b2-a2d6-2e322eb11c3c",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "44afcc68-8809-43eb-8bc2-cb476ee45933",
+    "regionName" : "sidebarAlt",
+    "type" : "region"
+  }, {
+    "id" : "caffbf0e-d0a6-40e8-8f21-577297cebf39",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Leren & Media | MijnPostNLpunt"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "d4a04557-cbb0-42e8-b45f-7f6e67904890",
+      "renditionMap" : {
+        "fr" : "3962384a-e918-43e8-ad06-8be0f17855e0"
+      },
+      "renditions" : [ {
+        "id" : "3962384a-e918-43e8-ad06-8be0f17855e0",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Academy | MonPointPostNL"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "280fdca0-53f8-4fcb-ad97-913c6bb21f43",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-academy"
+}

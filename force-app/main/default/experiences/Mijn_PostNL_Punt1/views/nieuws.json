@@ -1,0 +1,57 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "6c47ae54-9b3c-4f25-b435-0f198aeebc3e",
+  "label" : "Nieuws",
+  "regions" : [ {
+    "id" : "d412cb06-215a-4f48-ad32-07aa82fb419c",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:rp_PaginationParent",
+      "id" : "ada13125-5a70-40aa-9d4a-b0d8d9f9c9a2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ad8ddcdb-3c80-4015-b6ac-60843df50761",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "3d189bdd-9e02-4a69-8c6c-aa453a5752db",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Nieuws | MijnPostNLpunt"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "155f2448-7b2c-47da-bddd-3020afbd2eef",
+      "renditionMap" : {
+        "fr" : "c1b968aa-d3d4-42fc-b70b-6a33a74e8fab"
+      },
+      "renditions" : [ {
+        "id" : "c1b968aa-d3d4-42fc-b70b-6a33a74e8fab",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Nouveau | MonPointPostNL"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "ae2e5453-2bec-48f9-8be9-ed42009b3428",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-nieuws"
+}

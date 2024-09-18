@@ -1,0 +1,81 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "d93021cb-1f15-4f5e-927f-a4a475b5486f",
+  "label" : "Account Detail",
+  "regions" : [ {
+    "id" : "7006e201-a4fa-4b0f-9f56-3d1cf4d74488",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "0792e8d4-8ca3-4532-a750-cc2f7c864cee",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordDetail",
+      "id" : "f9962ebd-818c-48a8-8023-a40823eb73f5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<a href=\"/s/contractinformation\" class=\"createUserBtn\" style=\"margin-left:25px\">Rittijden</a>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "33742d75-49ec-44d7-baa8-b52a097530e5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "50d94dce-d909-436a-be66-8e612c993b2a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "567b89b3-de66-43c8-8ae4-a91b37cda1ea",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "66a8c63c-5a60-4e96-8916-1da8169eba99",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d04094e1-cdaa-4ccc-8a2b-be1c2499db88",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}",
+        "width" : "SMALL"
+      },
+      "componentName" : "forceCommunity:relatedRecords",
+      "id" : "a940aa4f-851b-4dc8-80f9-f65614643aa5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0df8ba06-1a54-4f3d-bccb-54653c3216c2",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-001"
+}

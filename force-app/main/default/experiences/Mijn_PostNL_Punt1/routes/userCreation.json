@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "5c654f41-ac4f-4847-ad60-1660f2e212ce",
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "configurationTags" : [ ],
+  "devName" : "User_Creation__c",
+  "id" : "def501ce-247f-45f9-87d6-c609a3eb15c3",
+  "label" : "User Creation",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-user-creation",
+  "type" : "route",
+  "urlPrefix" : "user-creation"
+}

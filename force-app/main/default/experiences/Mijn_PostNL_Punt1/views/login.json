@@ -1,0 +1,102 @@
+{
+  "appPageId" : "03691164-6d05-44e8-9b27-b1201f01cd6e",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "3511261a-7db0-40fc-b613-12e6fddaab8c",
+  "label" : "Login",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p class=\"mainHeader\" style=\"text-align:center;height:58px;font-size:32px;\">Welkom bij MijnPostNLpunt</p>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "4536be64-0b61-407e-b3bb-251f6ba831ab",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "fr" : "d5d0fd3c-b62a-493e-ad6d-c025d4865fae"
+      },
+      "renditions" : [ {
+        "id" : "d5d0fd3c-b62a-493e-ad6d-c025d4865fae",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<p class=\"mainHeader\" style=\"text-align:center;height:58px;font-size:32px;\">Bienvenue sur MonPointPostNL</p>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.HomeLogin.1}\" /></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "896a8365-205e-4a56-82dc-e48f9bb417ec",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "forgotPasswordLabel" : "Wachtwoord vergeten?",
+        "forgotPasswordUrl" : "/ForgotPassword",
+        "loginButtonLabel" : "Inloggen",
+        "passwordLabel" : "Wachtwoord",
+        "selfRegisterLabel" : "",
+        "selfRegisterUrl" : "/SelfRegister",
+        "startUrl" : "",
+        "usernameLabel" : "E-mailadres"
+      },
+      "componentName" : "salesforceIdentity:loginForm2",
+      "id" : "c8f38e41-370a-4535-bbf8-dd2cf19bd323",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "fr" : "2a6fd223-5575-44c2-a068-d5f2902a11fe"
+      },
+      "renditions" : [ {
+        "id" : "2a6fd223-5575-44c2-a068-d5f2902a11fe",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "forgotPasswordLabel" : "Mot de passe oublié?",
+            "loginButtonLabel" : "Se connecter",
+            "passwordLabel" : "Mot de passe",
+            "selfRegisterLabel" : "",
+            "usernameLabel" : "Adresse e-mail"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "8219203f-e350-4171-acc7-9b45b2638ddd",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Login | MijnPostNLpunt"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "0e10c5c5-045c-40ab-b15a-6dbfd2a34fa3",
+      "renditionMap" : {
+        "fr" : "e62a071f-d810-4457-a153-e5ba51b54ae3"
+      },
+      "renditions" : [ {
+        "id" : "e62a071f-d810-4457-a153-e5ba51b54ae3",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Se connecter | MonPointPostNL"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "6a567657-cb3b-4c0b-a4e9-c83c3d965e2b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Login",
+  "type" : "view",
+  "viewType" : "login-home"
+}

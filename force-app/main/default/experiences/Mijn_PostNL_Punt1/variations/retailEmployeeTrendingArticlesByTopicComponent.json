@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "1883fbac-1d07-44cb-b77d-33f0f5abfcc0",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "6b966980-a808-467a-b0aa-fdaa3005d685",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "RetailEmployee_Trending_Articles_by_Topic_Component",
+  "id" : "88e5a683-7894-42e7-9c74-343ff80ec0db",
+  "type" : "experienceVariation"
+}

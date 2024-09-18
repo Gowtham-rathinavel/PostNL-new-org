@@ -1,0 +1,46 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "1c38d0ab-5e52-455b-a999-37b59a8efcdc",
+  "label" : "Error Page",
+  "regions" : [ {
+    "id" : "6be39835-a1b3-4c2e-b1f9-e3bde0cf0868",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:rpErrorMessageScreen",
+      "id" : "81e11595-5e49-4cd6-8ebf-17ca6821c130",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a158308b-5e4d-4fa4-9969-494675823c34",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "15e6f15a-77cc-4219-9f88-fbb46b2aabc2",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Error Page"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6a43364b-ea0d-4d8b-afc8-b048409f5439",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2d0b4ffa-d91c-44bc-bb81-9476a0c52f2c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-error-page"
+}

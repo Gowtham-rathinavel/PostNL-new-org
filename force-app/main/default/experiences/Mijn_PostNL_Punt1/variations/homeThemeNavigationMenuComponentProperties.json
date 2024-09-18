@@ -1,0 +1,15 @@
+{
+  "componentVariants" : [ {
+    "id" : "f2793645-f5a2-49b4-af85-9b71ca8a3197",
+    "propertyOverrides" : {
+      "componentAttributes" : {
+        "navigationMenuEditorRefresh" : "Belgium_Nav"
+      }
+    },
+    "targetId" : "cc596f8d-fc26-4081-95c3-de3fccec9932",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Home_Theme_Navigation_Menu_Component_Properties",
+  "id" : "76e5abcc-59d2-467c-a244-d6f202d8bfd2",
+  "type" : "experienceVariation"
+}

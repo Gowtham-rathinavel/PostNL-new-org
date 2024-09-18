@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "b0679109-3c1b-4194-973a-2eb039267434",
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "configurationTags" : [ ],
+  "devName" : "Invoice__c",
+  "id" : "c341260c-ff19-43ac-b035-a47f8892e2b2",
+  "label" : "Invoice",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-invoice",
+  "type" : "route",
+  "urlPrefix" : "invoice"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "14d5aee6-aba9-467d-b2b1-50feeb20071e",
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "configurationTags" : [ ],
+  "devName" : "Vragen_And_Contact__c",
+  "id" : "46433b17-a238-47f4-a569-d98405f7571d",
+  "label" : "Vragen And Contact",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-vragen-and-contact",
+  "type" : "route",
+  "urlPrefix" : "vragen-and-contact"
+}

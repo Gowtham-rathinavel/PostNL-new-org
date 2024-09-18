@@ -1,0 +1,85 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
+  "dataProviders" : [ ],
+  "id" : "f3911312-aa09-41eb-8ed2-6666880f6db9",
+  "label" : "RetailEmployee",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:getCommunityUserAccount",
+      "id" : "e21b08dc-da22-4ea6-8ba1-731f950007e7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "af511344-2371-46db-a5e8-0fc3bd9c248a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "numberOfArticles" : 5,
+        "title" : "Veelgestelde vragen",
+        "topicId" : "{!topicId}"
+      },
+      "componentName" : "selfService:topicTrendingArticles42",
+      "id" : "6b966980-a808-467a-b0aa-fdaa3005d685",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "fr" : "fbec926f-0524-46dd-bdb2-5e038de15250"
+      },
+      "renditions" : [ {
+        "id" : "fbec926f-0524-46dd-bdb2-5e038de15250",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Questions fréquemment posées"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "316186a4-9462-42be-95b9-246e114cb605",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:rp_PaginationParent",
+      "id" : "7c1d1625-8de0-4f31-b89e-712ec0248e1a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "48476ad4-0369-49ec-a74d-49ee969cf982",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "fce1b12d-441c-4295-bbe2-693c588adee2",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "b4e4fa44-8d65-40fc-9e0e-791968c4a791",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "cdd2b4ee-7dd5-4c6b-a827-34757fec3645",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b1f668ff-4901-4520-943f-c572e6898ec8",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

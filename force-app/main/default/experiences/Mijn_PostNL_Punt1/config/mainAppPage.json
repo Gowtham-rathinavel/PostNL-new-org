@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "164f3626-12a5-4ec3-aaf5-baa53f22ff9b",
+  "headMarkup" : "<!-- Favicon -->\n<link rel=\"icon\" href=\"/sfsites/c/resource/RP_favicon\" />\n\n<script async src=\"https://www.postnl.nl/jsmanager/jsmanagernl.js\"></script>",
+  "id" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : true,
+  "label" : "main",
+  "templateName" : "Service Community Template",
+  "type" : "appPage"
+}

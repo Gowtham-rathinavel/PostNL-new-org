@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "66ede04f-bc3d-4876-8d93-a938bd1a5571",
+    "propertyOverrides" : {
+      "activeViewId" : "1f03e684-6e01-4ffb-b8af-9630c80322ec"
+    },
+    "targetId" : "3af7c7fe-9bcc-4d30-9cfe-b97182abbe68",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Account_Detail_ShopEmployeeAccountDetails_Page",
+  "id" : "4e786ac2-1afa-413a-9e56-6f94c24bafa8",
+  "type" : "experienceVariation"
+}

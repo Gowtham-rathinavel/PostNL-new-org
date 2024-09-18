@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "0144df71-3a9f-424c-8ce3-2c584f0549c8",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "7b9fa0e1-c7f2-4f5b-b250-297b879f3828",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "User_Creation_Flow_Component",
+  "id" : "bb86ed00-5076-44f7-a081-ae0ab44aa62c",
+  "type" : "experienceVariation"
+}

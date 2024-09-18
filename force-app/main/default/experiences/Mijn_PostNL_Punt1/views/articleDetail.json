@@ -1,0 +1,67 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "d993eae2-e802-4008-b1be-3c9df1470242",
+  "label" : "Article Detail",
+  "regions" : [ {
+    "id" : "1f4c97af-80e6-4cf9-bc8f-21983d2716a7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableVoting" : false,
+        "recordId" : "{!recordId}",
+        "showTitleInArticleHeader" : true,
+        "showTopicPills" : false,
+        "urlName" : "{!urlName}"
+      },
+      "componentName" : "selfService:singleArticleView",
+      "id" : "5a19285d-b372-45aa-aff0-6bd8329b1514",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "relatedListApiName" : "AttachedContentDocuments",
+        "relatedListComponentOverride" : "NONE",
+        "width" : "MEDIUM"
+      },
+      "componentName" : "forceCommunity:relatedListSingle",
+      "id" : "314366e5-11a5-4146-af50-b416feb3900b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "998ede1b-c111-43ca-8072-ab773d688ef9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "402d5232-f29e-4b60-9625-a66ba7cb4192",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "bada35e0-d2d7-4f98-b198-d0e0caf9e9c6",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "{!Record.Summary}",
+        "title" : "{!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "92c4e7a5-b12e-497c-ae29-36c7dcd19cdd",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0ca55cb0-1a92-4afc-bf4f-1eff31be3249",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "article"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "eb477524-71a7-427a-995c-a566cce52cfe",
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "configurationTags" : [ ],
+  "devName" : "Academy__c",
+  "id" : "b3c8b269-44fb-413f-a7a0-cfa0a386e30f",
+  "label" : "Learning Media",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-academy",
+  "type" : "route",
+  "urlPrefix" : "lerenmedia"
+}

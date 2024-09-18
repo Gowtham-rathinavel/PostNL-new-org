@@ -1,0 +1,46 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "4bf4a738-f77e-4eb0-bf90-8d7a3d39ac3c",
+  "label" : "ContractInformation",
+  "regions" : [ {
+    "id" : "5cf1cd8b-82a4-4deb-a67b-a7d34bbf975f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:rp_getServiceContracts",
+      "id" : "a83de4a8-ec8f-4f8c-bbd2-154ed98346d3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d9575623-f05e-471a-bf39-706e109e648c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "88144ae8-4389-4c44-9f12-5c5f87347689",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "ContractInformation"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4543c21c-3893-487b-a9f4-a74cab226899",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bbcfc619-ce77-43e4-931f-048aa6a58e16",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-contractinformation"
+}

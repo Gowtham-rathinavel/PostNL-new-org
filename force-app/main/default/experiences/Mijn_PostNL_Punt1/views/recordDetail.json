@@ -1,0 +1,76 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "25688530-05e1-436e-9849-ef3c0e75a8ce",
+  "label" : "Record Detail",
+  "regions" : [ {
+    "id" : "bd82f498-890d-4211-aaf0-08595c38216a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "5bd39d80-9785-4e81-a503-f6adb15da026",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordDetail",
+      "id" : "97ebcb71-55de-4225-aeb5-baf035f234a8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "Openingstijden__r",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "631dd003-912b-470a-87ed-1c82da5b680c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9285576e-f911-4732-9623-cdee0778e6e3",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "a2265174-71c3-4377-8cc8-de6f07d1c7ed",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a3c8d995-d2b1-4a5d-aa4d-777c457cfc65",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e5138987-4b06-4150-8929-f5b8d3250a21",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "id" : "5f3720a1-e25c-4517-9a27-8f1ec4efd092",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail"
+}

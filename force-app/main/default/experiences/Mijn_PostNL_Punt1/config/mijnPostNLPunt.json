@@ -1,0 +1,84 @@
+{
+  "forgotPasswordRouteId" : "14ef0114-ed74-4a4b-b10c-379a45aaf1ba",
+  "isAvailableToGuests" : false,
+  "isFilteredComponentsView" : false,
+  "isProgressiveRenderingEnabled" : true,
+  "loginAppPageId" : "03691164-6d05-44e8-9b27-b1201f01cd6e",
+  "mainAppPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : "ac696bd7-f26d-4536-9f70-0dce9fe240ba",
+  "trustedSitesForScript" : [ {
+    "id" : "e574fb0c-7b91-4981-88f9-c9e70c8fa01c",
+    "isActive" : true,
+    "trustedSiteName" : "apccdn.apsis1.com",
+    "trustedSiteUrl" : "https://apccdn.apsis1.com/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "242f6213-c1d8-478e-845f-929880ff16e4",
+    "isActive" : true,
+    "trustedSiteName" : "ajax.googleapis.com",
+    "trustedSiteUrl" : "https://ajax.googleapis.com/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "036d29a5-223d-4932-bf04-d91c2636b2ef",
+    "isActive" : true,
+    "trustedSiteName" : "w.usabilla.com",
+    "trustedSiteUrl" : "https://w.usabilla.com/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "f2096b44-4991-40e1-a936-7cddb2b040e5",
+    "isActive" : true,
+    "trustedSiteName" : "api.usabilla.com",
+    "trustedSiteUrl" : "https://api.usabilla.com/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "4b16986a-bef2-4acc-a72f-7154da2d399b",
+    "isActive" : true,
+    "trustedSiteName" : "cloudfront.net",
+    "trustedSiteUrl" : "https://d6tizftlrpuof.cloudfront.net/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "1044adf1-ec00-49a0-b136-846772bf9a3c",
+    "isActive" : true,
+    "trustedSiteName" : "developers.google.com",
+    "trustedSiteUrl" : "https://developers.google.com/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "4e37e293-61cd-4f10-8a16-19e9fe2b3028",
+    "isActive" : true,
+    "trustedSiteName" : "postnl.nl",
+    "trustedSiteUrl" : "https://www.postnl.nl",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "b1199b2e-3668-470f-8331-599ebb54e9f9",
+    "isActive" : true,
+    "trustedSiteName" : "tags-eu.tiqcdn.com",
+    "trustedSiteUrl" : "https://tags-eu.tiqcdn.com/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "279df8cb-fc39-43cc-9e8d-ba33fdce654e",
+    "isActive" : true,
+    "trustedSiteName" : "tags.tiqcdn.cn",
+    "trustedSiteUrl" : "https://tags.tiqcdn.cn/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "41381fc4-6e07-430b-a51f-e409bd388528",
+    "isActive" : true,
+    "trustedSiteName" : "tags.tiqcdn.com",
+    "trustedSiteUrl" : "https://tags.tiqcdn.com/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "34fc3c06-0bd7-4ad2-acff-dd9097136d24",
+    "isActive" : true,
+    "trustedSiteName" : "my.tealiumiq.com",
+    "trustedSiteUrl" : "https://my.tealiumiq.com/",
+    "type" : "trustedSitesForScripts"
+  }, {
+    "id" : "e086ea11-c2a7-40b2-89f2-f23b3eddc613",
+    "isActive" : true,
+    "trustedSiteName" : "collect.tealiumiq.com",
+    "trustedSiteUrl" : "https://collect.tealiumiq.com/",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

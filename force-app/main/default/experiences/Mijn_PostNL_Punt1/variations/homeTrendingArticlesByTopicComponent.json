@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "120d7b2d-9b60-4041-87d9-ed70d3ab8d65",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "2570b87d-cb06-4fd3-8f86-14b7f9308859",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Home_Trending_Articles_by_Topic_Component",
+  "id" : "3ecbb2fb-c21d-4dfb-853b-9d44f6c92e3d",
+  "type" : "experienceVariation"
+}

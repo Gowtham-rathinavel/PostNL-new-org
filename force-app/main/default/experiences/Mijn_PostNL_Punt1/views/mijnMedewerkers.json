@@ -1,0 +1,136 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "202d9d8f-096d-416c-9a51-6ac24b21a453",
+  "label" : "Mijn Medewerkers",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p class=\"mainHeader\" style=\"text-align:center;font-size:50px;height:58px\">Mijn Medewerkers</p>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "e2d832d7-5f92-4f70-b3b4-0b5b1244d57f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "fr" : "d6623bd6-dcdd-4c40-8eef-de7662d65711"
+      },
+      "renditions" : [ {
+        "id" : "d6623bd6-dcdd-4c40-8eef-de7662d65711",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<p class=\"mainHeader\" style=\"text-align:center;font-size:50px;height:58px\">Mes collaborateurs</p>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "22dc44c8-01e0-4de3-91a2-8f420c372e4b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "00B5E000002scMqUAI",
+        "layout" : "STANDARD",
+        "pageSize" : 25,
+        "scope" : "Contact",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "aabd3f5d-dbdf-4120-8bfb-467bb501b26c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "Mijn_werknemers",
+        "layout" : "STANDARD",
+        "pageSize" : 50,
+        "scope" : "Contact",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "e1d1513b-205d-4fa7-bb0e-52563c86c1e9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4f971793-fd1c-4414-8190-4264b704d090",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<a href=\"/s/user-creation\" class=\"createUserBtn\">Nieuwe gebruiker aanmaken</a>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "66c8311e-7201-4859-8bc1-85f873672f70",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "fr" : "5fd9b37f-e70b-4336-9ffa-20a41df16b9c"
+      },
+      "renditions" : [ {
+        "id" : "5fd9b37f-e70b-4336-9ffa-20a41df16b9c",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<a href=\"/mijnpostnlpunt/s/user-creation\" class=\"createUserBtn\">Créer un nouvel utilisateur</a>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "5c83120a-0a0f-407b-94ad-22a117be83f4",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Mijn Medewerkers | MijnPostNLpunt"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b0b68df2-20ed-4eb3-846f-6b8a27ce37d8",
+      "renditionMap" : {
+        "fr" : "67d76bea-98f0-4da8-bb2f-0d90cebacdb5"
+      },
+      "renditions" : [ {
+        "id" : "67d76bea-98f0-4da8-bb2f-0d90cebacdb5",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Mes collaborateurs | MonPointPostNL"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "243e98ec-01b5-4b8e-b378-5b7651360940",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-mijn-medewerkers"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "335f4eeb-dc6c-49b4-bd23-7be8f17132d1",
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "configurationTags" : [ ],
+  "devName" : "TemporaryClosure__c",
+  "id" : "e49bd34b-c309-40de-92e6-4551a9d1b065",
+  "label" : "TemporaryClosure",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-temporaryclosure",
+  "type" : "route",
+  "urlPrefix" : "temporaryclosure"
+}

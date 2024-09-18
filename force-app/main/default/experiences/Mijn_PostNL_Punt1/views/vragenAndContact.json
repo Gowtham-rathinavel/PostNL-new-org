@@ -1,0 +1,61 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "14d5aee6-aba9-467d-b2b1-50feeb20071e",
+  "label" : "Vragen And Contact",
+  "regions" : [ {
+    "id" : "d1e398d8-cc05-4f6f-be99-b6ee0f959528",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "05e6a536-3712-4553-855b-6cf2e3371455",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:rpTopicsView",
+      "id" : "e5926482-de7f-486d-ab13-d00c487b4f5f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3d7b8ab9-161c-4f95-b811-21c7830a586a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "af41d65c-97f7-4e83-84bf-d82c541f1ebe",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Kenniscentrum | MijnPostNLpunt"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b498ab94-8c7e-4fef-a04f-f17ce770c000",
+      "renditionMap" : {
+        "fr" : "dc78c469-0b9a-4b39-b784-a7efbf33666c"
+      },
+      "renditions" : [ {
+        "id" : "dc78c469-0b9a-4b39-b784-a7efbf33666c",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "title" : "Centre de connaissances | MonPointPostNL"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "919564b5-28a8-439a-baca-c02df02ae912",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-vragen-and-contact"
+}

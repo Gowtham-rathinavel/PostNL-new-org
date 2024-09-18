@@ -1,0 +1,58 @@
+{
+  "appPageId" : "40c2516a-0507-433f-a2c9-64eb8c88edd3",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "b557b38b-e618-44aa-b774-5ae4d7482c04",
+  "label" : "Academy1",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p class=\"mainHeader\">Academy</p>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "0d258689-e2f3-4c36-b0fc-b8465e3619a9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3caade5b-53b8-4b0a-bdc6-d3cdc767cace",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"width:100%; height: 677px; column-count: 3; column-gap:2em;\">\n    <div style=\" margin:auto; border: 1px solid #D4D9E3;display:block; min-width:347px;height: 170px;border-radius: 4px;\">\n        <div style=\"width:100px; display: table;\">\n            <div style=\"display: table-row-group;\">\n                <tr><td class=\"academySubHeader\">Academy</td></tr>\n                <tr><td class=\"contentInformation\">Leer en oefen hoe je PostNL</td></tr>\n                <tr><td class=\"contentInformation\">werkzaamheden uitvoert.</td></tr>\n                <tr><td class=\"academyLink\"><a style=\"color:#ed8c00;\" href=\"https://www.google.com\" target=\"_blank\">Ga naar Academy</a></td></tr>\n\t\t\t</div>\n        </div>\n    </div>\n    <div style=\"margin:auto; border: 1px solid #D4D9E3;display:block;min-width:347px;height: 170px;border-radius: 4px;\">\n        <div style=\"width:100px; display: table;\">\n            <tr><th class=\"academySubHeader\">Kennistoets</th></tr>\n            <tr><td class=\"contentInformation\">Bekijk je scores voor de kennistoets</td></tr>\n            <tr><td class=\"contentInformation\">en probeer deze te verbeteren</td></tr>\n            <tr><td class=\"academyLink\"><a style=\"color:#ed8c00\" href=\"https://www.google.com\" target=\"_blank\">Ga naar scores</a></td></tr>\n        </div>\n    </div>\n    <div style=\"margin:auto; border: 1px solid #D4D9E3;display:block;min-width:347px;height: 170px;border-radius: 4px;\">\n        <div style=\"width:100px; display: table;\">\n            <tr><th class=\"academySubHeader\">Kennistoets</th></tr>\n            <tr><td class=\"contentInformation\">Bekijk je scores voor de kennistoets</td></tr>\n            <tr><td class=\"contentInformation\">en probeer deze te verbeteren</td></tr>\n            <tr><td class=\"academyLink\"><a style=\"color:#ed8c00\" href=\"https://www.google.com\" target=\"_blank\">Ga naar scores</a></td></tr>\n        </div>\n    </div>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "7d6a08de-bcc6-42df-9056-fb64e1c4a8d4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b4bb6061-a4c1-4386-aed5-cb0cde7d63be",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "2b0d3620-af60-4836-9577-d6e38ffe9703",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Leren & Media | MijnPostNLpunt"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "97ab38c6-f036-461d-bf81-7f4dee58d84b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "af88571a-626b-4eed-b518-6957d4e89bf3",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-academy"
+}
